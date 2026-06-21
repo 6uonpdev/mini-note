@@ -29,7 +29,8 @@ mini_note/
 ├── edit.php         # Giao diện và logic Chỉnh sửa note
 ├── delete.php       # Logic Xóa note an toàn
 │
-└── database.sql     # File kết xuất cấu trúc Database để khôi phục
+└── database.sql     # File kết xuất cấu trúc Database để khôi phục 
+```
 Hướng dẫn cài đặt và chạy ứng dụng
 
 Bước 1: Chuẩn bị môi trường
@@ -40,10 +41,14 @@ Kích hoạt hai dịch vụ Apache và MySQL trên bảng điều khiển XAMPP
 
 Bước 2: Triển khai mã nguồn
 Sao chép toàn bộ thư mục dự án mini_note vào thư mục lưu trữ web của XAMPP:
+```txt
 C:\xampp\htdocs\mini_note
-
+```
 Bước 3: Khởi tạo Cơ sở dữ liệu
-Truy cập vào công cụ quản trị phpMyAdmin thông qua đường dẫn: http://localhost:8080/phpmyadmin/
+Truy cập vào công cụ quản trị phpMyAdmin thông qua đường dẫn:
+```txt
+http://localhost:8080/phpmyadmin/
+```
 
 Tạo một cơ sở dữ liệu mới với tên gọi: mini_note
 
@@ -51,8 +56,9 @@ Chọn database mini_note, bấm vào mục Import (Nhập) và tải lên file 
 
 Bước 4: Khởi chạy website
 Mở trình duyệt web bất kỳ và truy cập vào hệ thống theo đường dẫn:
+```txt
 http://localhost:8080/mini_note/login.php
-
+```
 Các cơ chế bảo mật đã áp dụng
 Là một dự án chú trọng vào An toàn thông tin, ứng dụng đã cài đặt sẵn các lớp phòng thủ cơ bản:
 
